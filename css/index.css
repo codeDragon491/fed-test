@@ -1,0 +1,334 @@
+/****************** Primary Styles *****************/
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-family: Ubuntu, sans-serif;
+    line-height: 1.3;
+    letter-spacing: 0.5px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+/****************** Banner Styles *****************/
+
+.topPageBanner {
+    height: 2.5rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.7px;
+}
+
+.topPageBanner-wrapper {
+    height: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+/****************** Header Styles *****************/
+
+header {
+    height: 4.625rem;
+    border-bottom: 1px solid lightgrey;
+}
+
+.header-wrapper {
+    padding: 1.25rem 0.75rem 1.25rem 0.75rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.headerNavMenu {
+    width: 1.625rem;
+}
+
+.burger span {
+    display: block;
+    width: 100%;
+    border-top: 1px solid #000000;
+    padding: 0.3rem;
+}
+
+.burger span:nth-child(3) {
+    padding: 0;
+}
+
+.logo {
+    margin-left: 3rem;
+}
+
+.logo a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 15%;
+}
+
+.logo span {
+    letter-spacing: 0.0175rem;
+    padding-left: 0.5rem;
+}
+
+.shopping-cart {
+    margin-left: auto;
+}
+
+.fa-shopping-cart {
+    font-size: 1.5rem;
+}
+
+
+/********************** Main Styles *****************/
+
+.pageTitle {
+    padding: 0.75rem 1.25rem 1.25rem 1.25rem;
+    font-style: italic;
+    font-size: 1.25rem
+}
+
+.pageContent>h2 {
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin: 2.125rem 0 1.5rem 0;
+}
+
+
+/* Menu Section */
+
+.menu-field {
+    background-color: #D18281;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0.75rem 0.75rem 0.75rem 0.75rem;
+    border-bottom: 4px solid #ffffff;
+}
+
+.menu-box-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #D18281;
+}
+
+.menu-box-title {
+    margin-left: 1rem;
+}
+
+.menu-box-arrow {
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+    margin-left: auto;
+}
+
+.rotated {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.menu-sub {
+    display: none;
+    font-size: 0.875rem;
+}
+
+.menu-sub-wrapper {
+    background-color: #f2f2f2;
+    padding: 0.75rem 0.75rem 0.75rem 0.75rem;
+}
+
+.menu-item {
+    background-color: #ffffff;
+    padding: 0.75rem 0.75rem 0.75rem 0.75rem;
+    margin: 0.75rem 0.75rem 1.5rem 0.75rem;
+}
+
+.menu-itemViewAll {
+    text-align: center;
+    font-weight: 600;
+}
+
+.menu-itemViewAll .fas {
+    margin-left: 0.3125rem;
+}
+
+
+/* Popular Question Section */
+
+.popularQuestions-wrapper {
+    font-size: 0.875rem;
+    padding: 0 1rem 2.5rem 1rem;
+}
+
+.popularQuestion {
+    padding-bottom: 1rem;
+}
+
+
+/* Reviews Section */
+
+.helpCenterReviews-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 15rem;
+    text-align: center;
+    background-color: #faf2f2;
+    padding: 0.5rem 0.75rem 0.5rem 0.75rem;
+}
+
+@media only screen and (min-width: 400px) {
+    .helpCenterReviews-wrapper {
+        height: 14rem;
+    }
+}
+
+.helpCenterReviews-wrapper>.qoute {
+    fill: #e2b2b1;
+}
+
+.helpCenterReviews-wrapper>.qoute-right {
+    margin: auto 0 0 auto;
+}
+
+.helpCenterReviews {
+    position: relative;
+    width: 100%;
+    padding: 1.25rem 0 1.875rem;
+    font-size: 0.875rem;
+}
+
+.helpCenterReview {
+    width: 100%;
+    text-align: center;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+}
+
+.helpCenterReview>.content {
+    margin: 2rem 1.25rem 0;
+    font-weight: lighter;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.helpCenterReview>.detail {
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 0.4px;
+}
+
+.helpCenterReview>.stars-wrapper {
+    color: #eeca5f;
+    font-size: 1.0625rem;
+    line-height: 1;
+    margin: 0.625rem;
+}
+
+
+/************ Modal Styles **************/
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*transition: opacity 0.3s ease;*/
+}
+
+.modal-wrapper {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.modal-container {
+    width: 75%;
+    background: #ffffff;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    border-radius: 0.125rem;
+    padding: 0.75rem 0.75rem 0.75rem 0.75rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.modal-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.fa-times-circle {
+    width: 1.75rem;
+    height: 1.75rem;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.modal-body {
+    margin: 3rem 0 6rem;
+    font-size: 2rem;
+    font-style: italic;
+    line-height: 2.25;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
