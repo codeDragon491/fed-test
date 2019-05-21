@@ -112,7 +112,7 @@ header {
 .pageTitle {
     padding: 0.75rem 1.25rem 1.25rem 1.25rem;
     font-style: italic;
-    font-size: 1.25rem
+    font-size: 1.25rem;
 }
 
 .pageContent>h2 {
@@ -126,7 +126,7 @@ header {
 /* Menu Section */
 
 .menu-field {
-    background-color: #D18281;
+    background-color: #d18281;
     color: #ffffff;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -152,7 +152,7 @@ header {
     height: 2.5rem;
     border-radius: 50%;
     background-color: #ffffff;
-    color: #D18281;
+    color: #d18281;
 }
 
 .menu-box-title {
@@ -284,7 +284,6 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    /*transition: opacity 0.3s ease;*/
 }
 
 .modal-wrapper {
@@ -296,8 +295,8 @@ header {
 .modal-container {
     width: 75%;
     background: #ffffff;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
     border-radius: 0.125rem;
     padding: 0.75rem 0.75rem 0.75rem 0.75rem;
     position: absolute;
